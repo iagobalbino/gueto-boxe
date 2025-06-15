@@ -1,0 +1,30 @@
+header {
+  background: black;
+  overflow: hidden;
+}
+
+.hero {
+  background: url("images/gueto_hero.jpg") no-repeat center top;
+  background-size: cover;
+  height: 220px;
+}
+
+.image-overlay {
+  height: 220px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+  height: 220px;
+}
+
+.title {
+  font-family: "stencil-std", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .coach img {
+  width: 40%;
+  height: 40%;
+} */
