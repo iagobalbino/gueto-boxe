@@ -1,10 +1,9 @@
 header {
-  background: black;
   overflow: hidden;
 }
 
 .hero {
-  background: url("images/gueto_hero.jpg") no-repeat center top;
+  background: url("images/gueto_hero.jpg") no-repeat;
   background-size: cover;
   height: 220px;
 }
@@ -25,6 +24,34 @@ header {
 }
 
 /* .coach img {
-  width: 40%;
-  height: 40%;
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
 } */
+
+.services {
+  background-color: #383838;
+}
+
+.icones {
+  width: 100px;
+  height: 100px;
+}
+
+.custom-card {
+  /* width: 355px; */
+  height: 249px;
+}
+
+.price-card h5 {
+  font-size: 32px;
+}
+
+.price {
+  font-size: 48px;
+}
+
+.mensal {
+  color: #D92419;
+  font-size: 24px;
+}
