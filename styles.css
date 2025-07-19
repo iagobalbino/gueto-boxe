@@ -45,7 +45,6 @@ header {
   /* height: 1800px; */
 }
 
-
 .custom-card {
   /* width: 355px; */
   height: 249px;
@@ -110,4 +109,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer-developer {
+  height: 100px;
 }
