@@ -2,7 +2,7 @@ header {
   overflow: hidden;
 }
 
-.hero {
+/* .hero {
   background: url("images/gueto_hero.jpg") no-repeat;
   background-size: cover;
   height: 220px;
@@ -15,6 +15,20 @@ header {
 
 .text {
   height: 220px;
+} */
+
+.hero-section {
+  background: url("images/gueto_hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+.img-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 
 .title {
