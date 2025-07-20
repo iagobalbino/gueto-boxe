@@ -64,6 +64,10 @@ header {
   height: 249px;
 }
 
+.price-card {
+  min-height: 249px;
+}
+
 .price-card h5 {
   font-size: 32px;
 }
@@ -125,11 +129,49 @@ header {
   justify-content: center;
 }
 
-/* Timetable */
-
-
-/* End timetable */
-
 .footer-developer {
   height: 100px;
 }
+
+/* Swipper */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Swipper End */
