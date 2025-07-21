@@ -39,7 +39,7 @@ header {
 
 .container-bg {
   background-color: #383838;
-  height: 1800px;
+  /* height: 1800px; */
 }
 
 .class-card {
@@ -97,7 +97,6 @@ header {
   background-size: cover;
   /* background-position: center; */
   font-weight: bold;
-  height: 380px;
 }
 
 
