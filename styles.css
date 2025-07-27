@@ -2,21 +2,6 @@ header {
   overflow: hidden;
 }
 
-/* .hero {
-  background: url("images/gueto_hero.jpg") no-repeat;
-  background-size: cover;
-  height: 220px;
-}
-
-.image-overlay {
-  height: 220px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.text {
-  height: 220px;
-} */
-
 .hero-section {
   background: url("images/gueto_hero.jpg") no-repeat;
   background-size: cover;
@@ -52,15 +37,13 @@ header {
 }
 
 .gueto-background {
-  background-image: url("images/logo.png");
   box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.9);
+  background: url("images/logo.png");
   background-size: cover;
   background-position: center;
-  /* height: 1800px; */
 }
 
 .custom-card {
-  /* width: 355px; */
   height: 249px;
 }
 
@@ -95,7 +78,7 @@ header {
   background-image: url("images/logo.png");
   box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.9);
   background-size: cover;
-  /* background-position: center; */
+  background-position: center;
   font-weight: bold;
 }
 
@@ -129,7 +112,7 @@ header {
 }
 
 .footer-developer {
-  height: 100px;
+  height: 60px;
 }
 
 /* Swipper */
