@@ -48,7 +48,8 @@ header {
 }
 
 .price-card {
-  min-height: 249px;
+  /* min-height: 249px; */
+  width: 220px;
 }
 
 .price-card h5 {
@@ -56,12 +57,12 @@ header {
 }
 
 .price {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .mensal {
   color: #D92419;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .divider {
@@ -111,8 +112,20 @@ header {
   justify-content: center;
 }
 
-.footer-developer {
+.footer-info {
   height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-info p {
+  margin: 0;
+}
+
+.footer-developer a {
+  text-decoration: none;
 }
 
 /* Swipper */
