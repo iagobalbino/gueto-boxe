@@ -28,12 +28,13 @@ header {
 }
 
 .class-card {
-  height: 183px;
+  width: 220px;
+  height: 144px;
 }
 
 .icones {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 }
 
 .gueto-background {
@@ -43,17 +44,9 @@ header {
   background-position: center;
 }
 
-.custom-card {
-  height: 249px;
-}
-
 .price-card {
   /* min-height: 249px; */
   width: 220px;
-}
-
-.price-card h5 {
-  font-size: 32px;
 }
 
 .price {
