@@ -1,19 +1,42 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background-color: #212529;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
 header {
   overflow: hidden;
+}
+
+.gueto-title {
+  font-size: 2rem;
 }
 
 .hero-section {
   background: url("images/gueto_hero.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 500px;
+  height: 100vh;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
 }
 
 .img-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   background-position: center;
-  min-height: 500px;
+  height: 100vh;
 }
 
 .title {
@@ -27,10 +50,18 @@ header {
   /* height: 1800px; */
 }
 
-.class-card {
+.coach h3 {
+  font-size: 1.75rem;
+}
+
+.coach p {
+  font-size: 1rem;
+}
+
+/* .class-card {
   width: 220px;
   height: 144px;
-}
+} */
 
 .icones {
   width: 60px;
@@ -122,20 +153,6 @@ header {
 }
 
 /* Swipper */
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  /* background: #000; */
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
 
 .swiper {
   width: 100%;
