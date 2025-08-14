@@ -21,11 +21,14 @@ header {
   font-size: 2rem;
 }
 
+.hero-section, .img-overlay {
+  height: 50vh;
+}
+
 .hero-section {
   background: url("images/gueto_hero.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 
 .hero-section p {
@@ -36,7 +39,6 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 
 .title {
@@ -180,3 +182,34 @@ header {
 }
 
 /* Swipper End */
+
+/* Media queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Styles for medium and larger devices */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hero-section, .img-overlay {
+    height: 100vh;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hero-section, .img-overlay {
+    height: 100vh;
+  }
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .hero-section, .img-overlay {
+    height: 100vh;
+  }
+}
