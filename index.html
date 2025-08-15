@@ -33,16 +33,22 @@
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Treinadores</a>
+            <li class="nav-item" data-bs-dismiss="offcanvas">
+              <a class="nav-link" href="#treinadores">Treinadores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">O que oferecemos</a>
+              <a class="nav-link" href="#oQueOferecemos">O que oferecemos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Horários</a>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#horarios">Horários</a>
+            </li> -->
+            <li class="nav-item" data-bs-dismiss="offcanvas">
+              <a class="nav-link" href="#valores">Valores</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" data-bs-dismiss="offcanvas">
+              <a class="nav-link" href="#localizacao">Localização</a>
+            </li>
+            <li class="nav-item" data-bs-dismiss="offcanvas">
               <a class="nav-link" href="#">Whatsapp</a>
             </li>
           </ul>
@@ -66,79 +72,91 @@
 
   </section>
 
-  <section class="gueto-background g-4 bg-dark text-center">
+  <section class="gueto-background g-4 bg-dark text-center" id="treinadores">
     <div class="container coach text-light">
       <h2 class="gueto-title fw-bold py-4">TREINADORES</h2>
 
       <!-- Swiper -->
-      <div class="swiper mySwiper pb-5">
+      <div class="swiper mySwiper pb-5 col-12 col-md-12">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="col-12 col-md-4">
-              <div class="card border-0 rounded-0 bg-transparent text-light">
-                <img src="images\alessandro_gueto.JPG" class="card-img-top" alt="Alessandro Gomes">
+            <div>
+              <div class="col-12 col-md-4">
+                <div class="card border-0 rounded-0 bg-transparent text-light mx-auto" style="width: 20rem;">
+                  <img src="images\alessandro_gueto.JPG" class="card-img-top" alt="Alessandro Gomes">
+                </div>
               </div>
-            </div>
 
-            <div class="col-12 col-md-6 d-flex align-items-center">
-              <div class="card border-0 rounded-0 bg-transparent text-light">
-                <div class="card-body">
-                  <h3>Alesssandro (Caveira) - Treinador</h3>
-                  <p class="card-text">Ex-boxeador profissional no peso galo, iniciou sua carreira em xxxx, tendo ganhando xxxx títulos e disputando xxx categorias. Fundador da Gueto Boxe, iniciou o projeto como uma forma de ajudar crianças e jovens no ensino do boxe.</p>
+              <div class="d-flex align-items-center">
+                <div class="card border-0 rounded-0 bg-transparent text-light">
+                  <div class="card-body">
+                    <h3>Alesssandro (Caveira) - Treinador</h3>
+                    <p class="card-text">Ex-boxeador profissional no peso galo, iniciou sua carreira em xxxx, tendo ganhando xxxx títulos e disputando xxx categorias. Fundador da Gueto Boxe, iniciou o projeto como uma forma de ajudar crianças e jovens no ensino do boxe.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div class="swiper-slide">
-            <div class="col-12 col-md-4">
-              <div class="card border-0 rounded-0 bg-transparent text-light">
-                <img src="images\luis_gueto.JPG" class="card-img-top" alt="Luis">
+            <div>
+              <div class="col-12 col-md-4">
+                <div class="card border-0 rounded-0 bg-transparent text-light mx-auto" style="width: 20rem;"">
+                  <img src=" images\luis_gueto.JPG" class="card-img-top" alt="Luis">
 
+                </div>
               </div>
-            </div>
 
-            <div class="col-12 col-md-6 d-flex align-items-center">
-              <div class="card border-0 rounded-0 bg-transparent text-light">
-                <div class="card-body ">
-                  <h3>Luiz Guilherme Lopes - Treinador</h3>
-                  <p>Sou treinador e atleta olímpico de boxe na categoria de 70kg. Apaixonado pela ciência do corpo humano e levar as pessoas a suas melhores versões por meio do esporte.</p>
+              <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="card border-0 rounded-0 bg-transparent text-light">
+                  <div class="card-body ">
+                    <h3>Luiz Guilherme Lopes - Treinador</h3>
+                    <p>Sou treinador e atleta olímpico de boxe na categoria de 70kg. Apaixonado pela ciência do corpo humano e levar as pessoas a suas melhores versões por meio do esporte.</p>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
           <div class="swiper-slide">
-            <div class="col-12 col-md-4">
-              <div class="card border-0 rounded-0 bg-transparent text-light">
-                <img src="images\marcos_pereira.JPG" class="card-img-top" alt="Marcos Pereira">
+            <div>
+              <div class="col-12 col-md-4">
+                <div class="card border-0 rounded-0 bg-transparent text-light mx-auto" style="width: 20rem;"">
+                  <img src=" images\marcos_pereira.JPG" class="card-img-top" alt="Marcos Pereira">
 
+                </div>
               </div>
-            </div>
 
-            <div class="col-12 col-md-6 d-flex align-items-center">
-              <div class="card border-0 rounded-0 bg-transparent text-light">
-                <div class="card-body ">
-                  <h3>Marcos Pereira - Auxiliar Técnico</h3>
-                  <p>Meu nome é Luiz Guilherme Lopes, sou treinador e atleta olímpico de boxe na categoria de 70kg. Apaixonado pela ciência do corpo humano e levar as pessoas a suas melhores versões por meio do esporte.</p>
+              <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="card border-0 rounded-0 bg-transparent text-light">
+                  <div class="card-body ">
+                    <h3>Marcos Pereira - Auxiliar Técnico</h3>
+                    <p>Meu nome é Luiz Guilherme Lopes, sou treinador e atleta olímpico de boxe na categoria de 70kg. Apaixonado pela ciência do corpo humano e levar as pessoas a suas melhores versões por meio do esporte.</p>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
           <div class="swiper-slide">
-            <div class="col-12 col-md-4">
-              <div class="card border-0 rounded-0 bg-transparent text-light">
-                <img src="images\gabriel_pitanca.JPG" class="card-img-top" alt="Gabriel">
+            <div>
+              <div class="col-12 col-md-4">
+                <div class="card border-0 rounded-0 bg-transparent text-light mx-auto" style="width: 20rem;"">
+                  <img src=" images\gabriel_pitanca.JPG" class="card-img-top" alt="Gabriel">
 
+                </div>
               </div>
-            </div>
 
-            <div class="col-12 col-md-6 d-flex align-items-center">
-              <div class="card border-0 rounded-0 bg-transparent text-light">
-                <div class="card-body ">
-                  <h3>Gabriel Pitança - Auxiliar Técnico</h3>
-                  <p>Comecei aqui na academia em 2012 há 13 anos atrás e eu procurei a academia pra aprender um pouco de defesa pessoal pois eu era muito brigão com isso conheci o mestre caveira que me ensinou tudo sobre a nobre arte e me tornei um homem mais calmo, consciente dos meus atos, menos ansioso, uma pessoa mais segura e confiante, indico muito a academia, comecei aqui do zero sem saber nada e aprendi tudo aqui!</p>
+              <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="card border-0 rounded-0 bg-transparent text-light">
+                  <div class="card-body ">
+                    <h3>Gabriel Pitança - Auxiliar Técnico</h3>
+                    <p>Comecei aqui na academia em 2012 há 13 anos atrás e eu procurei a academia pra aprender um pouco de defesa pessoal pois eu era muito brigão com isso conheci o mestre caveira que me ensinou tudo sobre a nobre arte e me tornei um homem mais calmo, consciente dos meus atos, menos ansioso, uma pessoa mais segura e confiante, indico muito a academia, comecei aqui do zero sem saber nada e aprendi tudo aqui!</p>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
 
         </div>
@@ -150,11 +168,11 @@
 
   </section>
 
-  <main class="container-bg p-5">
+  <main class="container-bg" id="oQueOferecemos">
     <section class="services text-light text-center">
       <h2 class="gueto-title fw-bold py-4">O QUE OFERECEMOS</h2>
 
-      <div class="container row mx-auto d-flex justify-content-center">
+      <div class="row mx-auto d-flex justify-content-center g-4">
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card d-flex flex-column justify-content-center mx-auto" style="width: 20rem;">
             <div class="card-body">
@@ -187,10 +205,10 @@
 
     <hr class="divider">
 
-    <section class="values">
+    <section class="values" id="valores">
       <h2 class="gueto-title fw-bold py-4 text-center text-light">VALORES</h2>
 
-      <div class="container mx-auto row d-flex justify-content-center">
+      <div class="container mx-auto row d-flex justify-content-center g-4 p-4">
         <div class="col-12 col-md-6 col-lg-4 fw-bold">
           <div class="card border-0 text-center mx-auto" style="width: 20rem">
             <div class="card-header bg-black">
@@ -226,6 +244,7 @@
             </div>
           </div>
         </div>
+      </div>
     </section>
   </main>
 
@@ -233,16 +252,9 @@
 
   </section>
 
-  <section class="map d-md-none p-4 bg-white">
-    <h2 class="gueto-title fw-bold text-center text-dark">NOSSA LOCALIZAÇÃO</h2>
-    <div class="location mb-4 d-flex justify-content-center">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2279311864445!2d-43.292875300000006!3d-22.904962299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997d0ada213cc1%3A0xa84f9924a362bcde!2sGueto%20Boxe%20-%20M%C3%A9ier!5e0!3m2!1spt-BR!2sbr!4v1751724648412!5m2!1spt-BR!2sbr" width="355" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </section>
-
-  <footer class="footer text-light p-2">
-    <div class="container row mx-auto">
-      <div class="card border-0 mx-auto" style="width: 20rem">
+  <footer class="footer text-light">
+    <div class="container row mx-auto p-4">
+      <div class="card border-0 mx-auto bg-transparent text-white" style="width: 20rem">
         <div class="gueto-info">
           <a class="navbar-brand" href="#">
             <img src="images\logo.png" alt="Escola de Boxe Gueto" width="60" height="60" class="mt-4">
@@ -272,12 +284,13 @@
         </div>
 
       </div>
-      <div class="card border-0 mx-auto" style="width: 20rem">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2279311864445!2d-43.292875300000006!3d-22.904962299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997d0ada213cc1%3A0xa84f9924a362bcde!2sGueto%20Boxe%20-%20M%C3%A9ier!5e0!3m2!1spt-BR!2sbr!4v1751724648412!5m2!1spt-BR!2sbr" width="303" height="324" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="card border-0 mx-auto" style="width: 20rem" id="localizacao">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2279311864445!2d-43.292875300000006!3d-22.904962299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997d0ada213cc1%3A0xa84f9924a362bcde!2sGueto%20Boxe%20-%20M%C3%A9ier!5e0!3m2!1spt-BR!2sbr!4v1751724648412!5m2!1spt-BR!2sbr" width=18rem height="324" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </footer>
-  <div class="footer-info bg-dark">
+
+  <div class="footer-info bg-dark text-center p-2 d-flex flex-column justify-content-center align-items-center">
     <p>Gueto Boxe © 2012 - 2025. Alguns direitos reservados. CNPJ: xx.xxxx.xxx/xxxx-xx</p>
     <p>
       Site desenvolvido por

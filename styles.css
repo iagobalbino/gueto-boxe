@@ -138,14 +138,6 @@ header {
   justify-content: center;
 }
 
-.footer-info {
-  height: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .footer-info p {
   margin: 0;
 }
