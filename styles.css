@@ -47,6 +47,10 @@ header {
   font-style: normal;
 }
 
+.hero-section p {
+  font-size: 1.6875rem;
+}
+
 .container-bg {
   background-color: #383838;
   /* height: 1800px; */
@@ -60,10 +64,19 @@ header {
   font-size: 1rem;
 }
 
-/* .class-card {
-  width: 220px;
-  height: 144px;
-} */
+.coach-card h5 {
+  font-family: "stencil-std", sans-serif;
+  font-size: 1.875rem;
+}
+
+.coach-card h6 {
+  font-size: 1.25rem;
+}
+
+.coach-card li {
+  font-size: 1rem;
+}
+
 
 .icones {
   width: 60px;
@@ -178,11 +191,27 @@ header {
 /* Media queries */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  .title {
+    font-size: 3.3rem;
+  }
+
+  .hero-section p {
+    font-size: 1.25rem;
+  }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   /* Styles for medium and larger devices */
+
+  .title {
+    font-size: 3.3rem;
+  }
+
+  .hero-section p {
+    font-size: 1.25rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -197,11 +226,28 @@ header {
   .hero-section, .img-overlay {
     height: 100vh;
   }
+
+  .title {
+    font-size: 4.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1.6875rem;
+  }
+
 }
 
 /* Extra extra large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
   .hero-section, .img-overlay {
-    height: 100vh;
+    height: 690px;
+  }
+
+  .title {
+    font-size: 4.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1.6875rem;
   }
 }
