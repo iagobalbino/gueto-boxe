@@ -54,6 +54,7 @@ header {
 .container-bg {
   background-color: #383838;
   /* height: 1800px; */
+  padding: 40px;
 }
 
 .coach h3 {
@@ -91,17 +92,32 @@ header {
 }
 
 .price-card {
-  /* min-height: 249px; */
-  width: 220px;
+  background: #ECE9E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #ECE9E6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 400px;
 }
 
-.price {
-  font-size: 36px;
+.price-card h4 {
+  font-size: 2rem;
 }
+
+.price-card h5 {
+  font-size: 3rem;
+}
+
+.price-card a {
+  background-color: #D92419;
+  color: #fff;
+}
+
 
 .mensal {
   color: #D92419;
-  font-size: 16px;
+  font-size: 1.5rem;
 }
 
 .divider {
@@ -157,6 +173,16 @@ header {
 
 .footer-developer a {
   text-decoration: none;
+}
+
+.dev a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dev a:hover {
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* Swipper */
