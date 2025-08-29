@@ -91,6 +91,10 @@ header {
   background-position: center;
 }
 
+.values li {
+  text-align: left;
+}
+
 .price-card {
   background: #ECE9E6;
   /* fallback for old browsers */
