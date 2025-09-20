@@ -136,9 +136,9 @@ header {
   margin: 60px auto;
 }
 
-.timetable {
+/* .timetable {
   height: 500px;
-}
+} */
 
 .footer {
   background-image: url("images/logo.png");
@@ -235,6 +235,11 @@ header {
   .hero-section p {
     font-size: 1.25rem;
   }
+
+  .timetable iframe {
+    width: 20rem;
+    height: 500px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -255,6 +260,12 @@ header {
   .hero-section, .img-overlay {
     height: 100vh;
   }
+
+  .timetable iframe {
+    width: 62rem;
+    height: 500px;
+  }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -271,6 +282,12 @@ header {
     font-size: 1.6875rem;
   }
 
+  .timetable iframe {
+    width: 68.75rem;
+    height: 500px;
+  }
+
+
 }
 
 /* Extra extra large devices (larger desktops, 1400px and up) */
@@ -286,4 +303,10 @@ header {
   .hero-section p {
     font-size: 1.6875rem;
   }
+
+  .timetable iframe {
+    width: 68.75rem;
+    height: 500px;
+  }
+
 }
