@@ -1,6 +1,6 @@
 # 🌐 Escola de Boxe Gueto Boxe
 
-![Logo da Empresa]([images/logo.jpg](https://github.com/iagobalbino/gueto-boxe/blob/main/images/logo.png))
+![Logo da Empresa]([https://github.com/iagobalbino/gueto-boxe/blob/main/images/logo.png])
 
 ## 📖 Sobre
 Escola de Boxe localizada no Méier, tem como objetivo o ensino do boxe para todos os públicos, também tem como a sua missão formação de novos atletas.
