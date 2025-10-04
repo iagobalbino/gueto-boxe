@@ -148,6 +148,10 @@ header {
   font-weight: bold;
 }
 
+.footer iframe {
+  width: 324px;
+  height: 324px;
+}
 
 .social-media {
   display: flex;
