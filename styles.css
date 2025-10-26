@@ -165,9 +165,10 @@ header {
   margin: 60px auto;
 }
 
-/* .timetable {
-  height: 500px;
-} */
+.timetable iframe {
+  height: 800px;
+  width: 400px;
+}
 
 .footer {
   background-image: url("images/logo.png");
