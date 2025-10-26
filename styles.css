@@ -25,20 +25,50 @@ header {
   height: 50vh;
 }
 
-.hero-section {
+/* .hero-section {
   background: url("images/gueto_hero.jpg") no-repeat;
   background-size: cover;
   background-position: center;
+} */
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.bg-section {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* "Box" */
+.img-overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent);
 }
 
 .hero-section p {
   font-size: 1.5rem;
 }
 
-.img-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  background-size: cover;
-  background-position: center;
+.titulo {
+  width: 80%;
+}
+
+.img-overlay p {
+  font-size: 24px;
 }
 
 .title {
